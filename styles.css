@@ -1955,3 +1955,11 @@ section {
 .breadcrumb a:last-child:after {
   content: none;
 }
+@media only screen and (max-width: 600px) {
+  .bread {
+    display: none;
+  }
+  .mobilepad {
+    margin-top: 126px;
+  }
+}
